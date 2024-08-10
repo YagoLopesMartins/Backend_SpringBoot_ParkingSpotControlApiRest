@@ -1,5 +1,6 @@
 ### Objetivo
  - Entender um pouco mais sobre o ecossistema de java web com o framework Spring boot
+ - Projeto para controle de estacionamento (vaga de estacionamento parking spot)
 
 ### Pré- requisitos
  - Java JDK >= 17
@@ -22,6 +23,15 @@
   - ParkingModel: (atributos e metódos getter and setter)
     - Serializable para JVM
     - Annotation: @Entity @Table @Id @ GeneratedValue
+  - ParkingController:
+    - Annotation: @RestController
+    - Injeção de dependência: ponto (@Autowired) atributo global ParkingRepository
+   
+      
+  - ParkingRecordDTO: record (pattern) imutaveis (uma vez criado não pode ser mais alterado)
+    - Annotation: @NotBlanck @NotNull
+  - ParkingRepository: interface para o banco de dados o qual o JPA se encarrega de manipular com alguns metodos prontos exemplo save (CRUD API)
+    - Annotation: @Repository
 
 ### Descrição
 - File: application.properties: Conexão com o banco de dados (https://github.com/YagoLopesMartins/parkingspotcontrolapispring/blob/main/src/main/resources/application.properties)
