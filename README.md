@@ -58,7 +58,8 @@
         - Recebe um id de busca
         - Acessa a base se o id existe com Optional
         - Se não existir retona NOT_FOUND
-        - Se encontrar retorna status OK echama o method delete
+        - Se encontrar retorna status OK echama o method delete  
+- DateTime format (config) @Configuration @Bean @Primary
       
   - ParkingRecordDTO: record (pattern) imutaveis (uma vez criado não pode ser mais alterado)
     - Annotation: @NotBlanck @NotNull
