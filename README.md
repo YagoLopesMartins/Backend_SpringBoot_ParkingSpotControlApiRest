@@ -80,7 +80,6 @@
 - Inserir testes
 - Implementar camada service junto ao controlador (regra de negocio)
 - Customizar mensagens de erros
-- Criar methos de 
 - Deploy no Render ou AWS ou GPC
 - Docker
 - CI/CD (Github actions) Pipelines
