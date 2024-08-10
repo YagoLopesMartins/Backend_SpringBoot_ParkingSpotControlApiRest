@@ -1,14 +1,13 @@
 ### Objetivo
  - Entender um pouco mais sobre o ecossistema de java web com o framework Spring boot
 
-### Descrição
-
 ### Pré- requisitos
  - Java JDK >= 17
+ - PostgresSQL
 
 ### Tecnologias
 - IntelliJ IDEA (JetBrains)
-- https://start.spring.io/ (Initializr) / Mavem (gerenciador de dependências)
+- https://start.spring.io/ (Initializr) / Mavem (gerenciador de dependências) -> pom.xml
 - Java 17 and Jakarta EE 9
 - Spring Boot 3:
   - Web MVC: Restful, Tomcat, MVC
@@ -19,6 +18,9 @@
 
 ### Princiapais funcionalidades
 - API RESTful
+- MVC
+
+### Descrição
 
 ### Como utilizar
 - Clone the repository
@@ -26,3 +28,5 @@
 ### Tarefas a fazer
 - Inserir testes
 - Deploy no Render ou AWS ou GPC
+- Docker
+- CI/CD
