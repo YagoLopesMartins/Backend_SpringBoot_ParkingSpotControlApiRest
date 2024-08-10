@@ -7,7 +7,7 @@
 
 ### Tecnologias
 - IntelliJ IDEA (JetBrains)
-- https://start.spring.io/ (Initializr) / Mavem (gerenciador de dependências) -> pom.xml
+- https://start.spring.io/ (Initializr) / Mavem (gerenciador de dependências) -> pom.xml (https://github.com/YagoLopesMartins/parkingspotcontrolapispring/blob/main/pom.xml)
 - Java 17 and Jakarta EE 9
 - Spring Boot 3:
   - Web MVC: Restful, Tomcat, MVC
@@ -21,7 +21,7 @@
 - MVC
 
 ### Descrição
-- File: application.properties: Conexão com o banco de dados
+- File: application.properties: Conexão com o banco de dados (https://github.com/YagoLopesMartins/parkingspotcontrolapispring/blob/main/src/main/resources/application.properties)
 
 ### Como utilizar
 - Clone the repository
