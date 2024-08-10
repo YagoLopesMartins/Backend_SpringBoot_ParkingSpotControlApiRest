@@ -60,6 +60,7 @@
         - Se não existir retona NOT_FOUND
         - Se encontrar retorna status OK echama o method delete  
 - DateTime format (config) @Configuration @Bean @Primary
+- Paginação
       
   - ParkingRecordDTO: record (pattern) imutaveis (uma vez criado não pode ser mais alterado)
     - Annotation: @NotBlanck @NotNull
