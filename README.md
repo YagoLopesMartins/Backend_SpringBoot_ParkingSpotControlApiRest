@@ -34,7 +34,7 @@
     - Serializable para JVM
     - Annotation: @Entity @Table @Id @ GeneratedValue
   - ParkingController:
-    - Annotation: @RestController,  @Autowired, @PostMapping, @RequestBody @Valid, @GetMapping
+    - Annotation: @RestController,  @Autowired, @PostMapping, @RequestBody @Valid, @GetMapping, @CrossOrigin
     - Injeção de dependência: ponto (@Autowired) atributo global ParkingRepository  (2 formas d ecriar injeção de depencia, 1 com @autowired e outra via construtor)
     - POST
       - method: saveParking()
