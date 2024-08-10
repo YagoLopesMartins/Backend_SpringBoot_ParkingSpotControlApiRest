@@ -17,7 +17,7 @@
   - Hateoas:
 
 ### Princiapais funcionalidades
-- API RESTful
+- API RESTful - modelo de maturidade (https://rivaildojunior.medium.com/modelo-de-maturidade-de-richardson-para-apis-rest-8845f93b288)
 - MVC
 
 ### Descrição
