@@ -80,6 +80,8 @@
 
 ### Tarefas a fazer (melhorias)
 - Inserir testes
+- Inserir filtros API
+- Relacionamentos
 - Implementar camada service junto ao controlador (regra de negocio)
 - Customizar mensagens de erros
 - Deploy no Render ou AWS ou GPC
