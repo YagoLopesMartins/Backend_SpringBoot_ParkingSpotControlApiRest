@@ -22,7 +22,7 @@
     - Annotations: 
   - PostgreeSQL Driver: SQL
   - Validation: para testar endpoints (não nulo, strings vazias, duplicados etc)
-  - Hateoas: Documentação API (hipermidias, modelo RESTful navegabilidade entre os recursos)
+  - Hateoas: Documentação API (hipermidias, modelo RESTful navegabilidade entre os recursos) extends representationModel
 
 ### Princiapais funcionalidades
 - API RESTful - modelo de maturidade (https://rivaildojunior.medium.com/modelo-de-maturidade-de-richardson-para-apis-rest-8845f93b288)
