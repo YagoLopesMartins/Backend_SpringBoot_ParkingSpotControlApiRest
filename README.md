@@ -83,5 +83,5 @@
 - Criar methos de 
 - Deploy no Render ou AWS ou GPC
 - Docker
-- CI/CD
+- CI/CD (Github actions) Pipelines
 - Segurança
