@@ -4,7 +4,7 @@
 ### Pré- requisitos
  - Java JDK >= 17 + variaveis ambiente
  - Gradle + variaveis ambiente
- - PostgresSQL
+ - Docker: Mysql, PostgresSQL
  - Postman/Insomnia
 
 ### Tecnologias
@@ -19,6 +19,7 @@
   - PostgreeSQL Driver: SQL
   - Validation: para testar endpoints (não nulo, strings vazias, duplicados etc)
   - Hateoas: Documentação API (hipermidias, modelo RESTful navegabilidade entre os recursos) extends representationModel
+  - JUnit
 
 ### Princiapais funcionalidades
 - API RESTful - modelo de maturidade (https://rivaildojunior.medium.com/modelo-de-maturidade-de-richardson-para-apis-rest-8845f93b288)
