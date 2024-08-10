@@ -21,6 +21,7 @@
 - MVC
 
 ### Descrição
+- File: application.properties: Conexão com o banco de dados
 
 ### Como utilizar
 - Clone the repository
