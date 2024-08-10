@@ -18,7 +18,10 @@
 
 ### Princiapais funcionalidades
 - API RESTful - modelo de maturidade (https://rivaildojunior.medium.com/modelo-de-maturidade-de-richardson-para-apis-rest-8845f93b288)
-- MVC
+- MVC (estruturado em pacotes)
+  - ParkingModel: (atributos e metódos getter and setter)
+    - Serializable para JVM
+    - Annotation: @Entity @Table @Id @ GeneratedValue
 
 ### Descrição
 - File: application.properties: Conexão com o banco de dados (https://github.com/YagoLopesMartins/parkingspotcontrolapispring/blob/main/src/main/resources/application.properties)
