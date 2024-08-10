@@ -1,6 +1,10 @@
 ### Objetivo
  - Entender um pouco mais sobre o ecossistema de java web com o framework Spring boot
  - Projeto para controle de estacionamento (vaga de estacionamento parking spot)
+ - Contexto: Condominio, moradores possuem Vagas fixas de acordo com o apartamento, cada morador cadastra um veiculo
+   - Veiculo: placa (licensePlateCar), modelo, cor, marca, registro do cadastro do veiculo no sitema de controle
+   - apartamento/bloco: identificador (numeros e letras)
+   - Vaga: numero da vaga (parkingSpotNumber): campo unico, não nulo e letras enumeros
 
 ### Pré- requisitos
  - Java JDK >= 17
@@ -25,16 +29,21 @@
     - Annotation: @Entity @Table @Id @ GeneratedValue
   - ParkingController:
     - Annotation: @RestController
-    - Injeção de dependência: ponto (@Autowired) atributo global ParkingRepository
+    - Injeção de dependência: ponto (@Autowired) atributo global ParkingRepository  (2 formas d ecriar injeção de depencia, 1 com @autowired e outra via construtor)
    
       
   - ParkingRecordDTO: record (pattern) imutaveis (uma vez criado não pode ser mais alterado)
     - Annotation: @NotBlanck @NotNull
   - ParkingRepository: interface para o banco de dados o qual o JPA se encarrega de manipular com alguns metodos prontos exemplo save (CRUD API)
     - Annotation: @Repository
+  - ParkingService: 
+    - Annotation: @Service
+    - Injeção de dependência:  final ParkingRepository  com o construtor da classe recebendo essa dependencia (duas formas de criar a injeção, 1 com @autowired e outra via construtor)
+    - Criar uma interface para melhorar a usabilidade!
 
 ### Descrição
 - File: application.properties: Conexão com o banco de dados (https://github.com/YagoLopesMartins/parkingspotcontrolapispring/blob/main/src/main/resources/application.properties)
+- Controller->Service->Repository
 
 ### Como utilizar
 - Clone the repository
