@@ -84,3 +84,4 @@
 - Deploy no Render ou AWS ou GPC
 - Docker
 - CI/CD
+- Segurança
