@@ -1,6 +1,6 @@
 ### Objetivo
  - Entender um pouco mais sobre o ecossistema de java web com o framework Spring boot
- - Projeto para controle de estacionamento (vaga de estacionamento parking spot)
+ - Projeto para controle de estacionamento (vaga de estacionamento parking spot baseado nos projetos da Michelli Brito no Youtube)
  - Contexto: Condominio, moradores possuem Vagas fixas de acordo com o apartamento, cada morador cadastra um veiculo
    - Veiculo: placa (licensePlateCar), modelo, cor, marca, registro do cadastro do veiculo no sitema de controle
    - apartamento/bloco: identificador (numeros e letras)
