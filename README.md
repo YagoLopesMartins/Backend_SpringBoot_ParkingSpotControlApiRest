@@ -94,4 +94,4 @@
 - Deploy no Render ou AWS ou GPC
 - Docker
 - CI/CD (Github actions) Pipelines
-- Segurança (spring security)
+- Segurança (spring security, ex.: Bearer Token, Basic, OAuth2 etc)
