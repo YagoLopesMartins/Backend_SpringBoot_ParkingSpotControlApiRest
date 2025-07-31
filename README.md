@@ -86,12 +86,12 @@
  
 
 ### Tarefas a fazer (melhorias)
-- Inserir testes
-- Inserir filtros API
+- Inserir testes (unitários e integrados)
+- Inserir filtros API (paginação etc)
 - Relacionamentos
 - Implementar camada service junto ao controlador (regra de negocio)
 - Customizar mensagens de erros
 - Deploy no Render ou AWS ou GPC
 - Docker
 - CI/CD (Github actions) Pipelines
-- Segurança
+- Segurança (spring security)
