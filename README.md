@@ -78,6 +78,12 @@
 
 ### Como utilizar
 - Clone the repository
+- Configure banco de dados, se LOCAL
+  - sudo -u postgres psql
+  - CREATE DATABASE nome_do_banco;
+- Executar projeto e acessar no navedagor a url: http://localhost:8080/
+- Para testar todas as requisições usar Insominia ou Postman e importe o arquivo x do diretorio Y
+ 
 
 ### Tarefas a fazer (melhorias)
 - Inserir testes
